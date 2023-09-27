@@ -68,8 +68,8 @@ def test_bank_account(acc_no, name, password, balance, irate, entered_password):
          print(f' <PASSWORD MISMATCH> ')
     
 
-
-test_bank_account(acc_no = 12345678945,name = "Amitabh Devnath", password = "abcd", balance = 10000, irate = 5, entered_password = "abcd")
+if __name__ == "__main__":
+    test_bank_account(acc_no = 12345678945,name = "Amitabh Devnath", password = "abcd", balance = 10000, irate = 5, entered_password = "abcd")
 
 
 
