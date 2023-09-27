@@ -34,8 +34,8 @@ def model_circle(r):
      print(f'Perimeter={perimeter(c)}')
     
         
-
-model_circle(-1)
+if __name__ == "__main__":
+    model_circle(7)
 
 
 
