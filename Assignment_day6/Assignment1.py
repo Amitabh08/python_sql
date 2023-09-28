@@ -75,11 +75,12 @@ class LinkedList:
         length = 1
         current_node = self.head
         if self.head is None:
-            return f'EMPTY LIST'
-        while (current_node.next):
-            length += 1
-            current_node = current_node.next
-        print(length)
+            print("Empty List ")
+        else:
+            while (current_node.next):
+                length += 1
+                current_node = current_node.next
+            print(length)
 
 
     def info(self):
